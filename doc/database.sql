@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 04, 2014 at 08:07 PM
+-- Generation Time: Feb 04, 2014 at 09:10 PM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -30,14 +30,15 @@ CREATE TABLE IF NOT EXISTS `post` (
   `user_id` int(11) NOT NULL COMMENT 'INDEX',
   PRIMARY KEY (`post_id`),
   KEY `user_id` (`user_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=11 ;
 
 --
 -- Dumping data for table `post`
 --
 
 INSERT INTO `post` (`post_id`, `post_subject`, `post_text`, `post_created`, `user_id`) VALUES
-(9, 'fdhd', 'dfhdfh', '2014-02-04 18:37:50', 0);
+(9, 'fdhd', 'dfhdfh', '2014-02-04 18:37:50', 0),
+(10, 'treer', 'erherh', '2014-02-04 19:35:59', 0);
 
 -- --------------------------------------------------------
 
