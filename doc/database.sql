@@ -11,13 +11,7 @@ SET FOREIGN_KEY_CHECKS=0;
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
---
--- Andmebaas: `blog`
---
-CREATE DATABASE IF NOT EXISTS `blog` DEFAULT CHARACTER SET latin1 COLLATE latin1_swedish_ci;
-USE `blog`;
 
--- --------------------------------------------------------
 
 --
 -- Tabeli struktuur tabelile `comment`
