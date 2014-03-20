@@ -25,4 +25,4 @@
         </div>
         <hr>
     </div>
-<?endforeach?>ag?></span></a> <? endforeach?>
+<?endforeach?>
